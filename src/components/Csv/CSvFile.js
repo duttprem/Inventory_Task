@@ -3,7 +3,6 @@ import { useState } from 'react';
 import "./Csvfile.css"
 
 function CSvFile  ()  {
-  // function CsvUploader() {
     const [csvData, setcsvData] = useState([]);
   
     function upload() {
